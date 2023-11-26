@@ -1,5 +1,6 @@
 body {
-    font-family: 'Arial', sans-serif;
+    border: 5px solid gold ;
+    font-family: 'IM Fell English', serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,26 +9,36 @@ body {
 }
 
 .header {
-    border: solid #333;
-    width: 100%;
-    background-color: #a93030;
-    color: #fff;
-    display: flex;
-    flex-direction: row; /* Change from row to column */
-    align-items: center;
-    justify-content: space-around;
-    height: 150px;
+    border: 5px double #333;
+    background: linear-gradient(to right, rgb(227, 230, 235), #898a8b); /* Gradient background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px; /* Limit the maximum width of the content */
+    margin: 0 auto; /* Center the content horizontally within the header */
 }
 
 .header img {
-    margin-bottom: 10px; /* Add margin to create space between the image and the paragraph */
+    max-width: 350px; /* Make sure the image doesn't exceed the container width */
+    height: auto; /* Maintain the aspect ratio */
 }
 
+.header h1 {
+    color: #333333; /* Set the text color */
+}
+
+.contact-info {
+    margin-top: 10px; /* Add some space between the heading and contact info */
+}
+
+
 .fa {
-    border: solid #333;
+    border: 5px double #333;
     padding: 20px;
     font-size: 30px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
 }
@@ -37,42 +48,35 @@ body {
     opacity: 0.7;
 }
 
-  /* Set a specific color for each brand */
+.list-group {
+    align-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 5px double #333;
+    text-align: center;
+}
 
-  /* Facebook */
+/* Facebook   Logo*/
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
-.header h1 {
-    margin: 0;
-    font-size: 36px;
-}
 
-.header h3 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.header a {
-    color: #fff;
-    text-decoration: none;
-}
 .body p, h1, h3, h4 {
+    margin-top: 25px;
     margin-left: 250px;
     margin-right: 250px;
     color: rgb(250, 250, 250);
-    text-align: left;
+    text-align: center;
 }
-.header img {
-    height: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.body{
+    border: 5px double #333 ;
 }
 
 .footer {
+    margin-top: auto;
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 10px;
 }
