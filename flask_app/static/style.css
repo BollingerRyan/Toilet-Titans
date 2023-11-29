@@ -64,7 +64,8 @@ body {
 .Listim {
     border-top:5px double  #333;
     border-bottom:5px double  #333;
-    height: 450px; /* Set the height as needed */
+    height: 500px;
+        /* Set the height as needed */
     /* Add any other styling properties you want */
 }
 
