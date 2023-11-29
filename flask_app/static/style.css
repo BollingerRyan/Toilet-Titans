@@ -49,11 +49,23 @@ body {
 }
 
 .list-group {
+    font-size: x-large;
+    font-weight: bolder;
     align-content: center;
     margin-bottom: 50px;
     margin-top: 50px;
     border: 5px double #333;
     text-align: center;
+    width: 600px;
+    margin: 0 auto; /* Center the list-group horizontally */
+    width: 65%; /* Set a width for better responsiveness, adjust as needed */
+}
+
+.Listim {
+    border-top:5px double  #333;
+    border-bottom:5px double  #333;
+    height: 450px; /* Set the height as needed */
+    /* Add any other styling properties you want */
 }
 
 /* Facebook   Logo*/
@@ -79,4 +91,7 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
+}
+body {
+    background-image: url("/static/images/wp3353895.jpg");
 }
