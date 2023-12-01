@@ -1,37 +1,35 @@
 body {
-    border: 5px solid gold ;
-    font-family: 'IM Fell English', serif;
+    border: 5px solid rgb(0, 0, 0) ;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
-}
-
-.header {
-    border: 5px double #333;
-    background: linear-gradient(to right, rgb(227, 230, 235), #898a8b); /* Gradient background */
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    min-height: 100vh;
 }
 
 .header-content {
-    max-width: 800px; /* Limit the maximum width of the content */
-    margin: 0 auto; /* Center the content horizontally within the header */
+    justify-content: space-evenly;
+    border: 5px double #333;
+    background-color: rgb(186, 199, 213);
+    text-align: center;
+    display: flex;
+    flex-direction: row; /* Change from column to row */
+    align-items: center; /* Center items horizontally */
 }
 
 .header img {
-    max-width: 350px; /* Make sure the image doesn't exceed the container width */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 350px; /* Ensure the image is responsive within its container */
+    height: auto;
 }
 
 .header h1 {
     color: #333333; /* Set the text color */
+    font-size: 24px;
+    margin: 10px 0; /* Add some margin for spacing */
 }
-
-.contact-info {
-    margin-top: 10px; /* Add some space between the heading and contact info */
+.facebooklogo{
+    margin-right: 25px;
 }
 
 
@@ -82,17 +80,30 @@ body {
     color: rgb(250, 250, 250);
     text-align: center;
 }
+
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
 .body{
     border: 5px double #333 ;
 }
-
+.Return{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    margin-bottom: 10px;
+}
 .footer {
-    margin-top: auto;
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 body {
     background-image: url("/static/images/wp3353895.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
