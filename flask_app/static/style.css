@@ -57,8 +57,8 @@ body {
 
 /* Add a media query for smaller screens */
 @media (max-width: 767px) {
-    .header-content {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+    .navbar {
+        flex-direction: row-reverse; /* Stack items vertically on smaller screens */
     }
 }
 
