@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("/static/images/wp3353895.jpg");
+    background-image: url("/static/images/wp3353894.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,7 +58,8 @@ body {
 /* Add a media query for smaller screens */
 @media (max-width: 767px) {
     .navbar {
-        flex-direction: row-reverse; /* Stack items vertically on smaller screens */
+        flex-direction: row-reverse;
+        width: auto;
     }
 }
 
@@ -151,7 +152,7 @@ h4{
 }
 
 .carousel-item img {
-    max-height: 600px; /* Set the maximum height as per your preference */
+    height: 300px; /* Set the maximum height as per your preference */
     width: auto; /* Let the width scale proportionally */
     margin: 0 auto; /* Center the image horizontally */
 }
