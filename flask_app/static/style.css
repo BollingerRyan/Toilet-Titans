@@ -34,7 +34,7 @@ body {
 
 .nav-link {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 14px 16px;
 }
 

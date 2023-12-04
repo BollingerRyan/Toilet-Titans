@@ -9,10 +9,10 @@ def show_home_page():
 def show_privacy_policy():
     return render_template('privacy_policy.html')
 
-@app.route('/contact')
-def show_contact_info():
-    return render_template('contact.html')
-
 @app.route('/about_us')
 def show_about_us():
     return render_template('about_us.html')
+
+
+
+
