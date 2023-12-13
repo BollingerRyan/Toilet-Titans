@@ -111,14 +111,25 @@ h4{
 .body {
     flex: 1; /* This will make the body element grow and take up remaining space */
 }
+
 .li{
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 35px;
     color: #fff;
+}
+
+@media (max-width: 767px) {
+    .li {
+        margin:15px
+    }
 }
 
 .services {
     padding: 50px 0;
     text-align: center;
 }
+
 
 .Return {
     display: flex;
@@ -144,7 +155,7 @@ h4{
     overflow: hidden;
 }
 .carousel-inner img {
-    width: 550px;
+    height: auto;
 }
 
 .carousel-item {
@@ -152,11 +163,16 @@ h4{
 }
 
 .carousel-item img {
-    height: 300px; /* Set the maximum height as per your preference */
+    height: 650px; /* Set the maximum height as per your preference */
     width: auto; /* Let the width scale proportionally */
     margin: 0 auto; /* Center the image horizontally */
 }
-
+@media (max-width: 767px) {
+    .carousel-item img {
+            height: 300px;
+            width: auto;
+    }
+}
 .carousel-caption {
     max-width: 100%; 
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for captions */
@@ -170,14 +186,4 @@ h4{
     margin-bottom: 0;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for control arrows */
-}
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: white; /* Control arrows color */
-}
-
-.carousel-control-prev:hover, .carousel-control-next:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
-}
